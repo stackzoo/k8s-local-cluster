@@ -38,3 +38,21 @@ k8s-master      Ready    control-plane,master   5m6s          v1.26.0
 k8s-worker-1    Ready    <none>                 2m59s         v1.26.0
 k8s-worker-2    Ready    <none>                   68s         v1.26.0
 ```
+
+## Useful Commands
+
+*vagrant status* — Get the current status of your VM
+
+*vangrant destroy* — Remove all traces of the virtual machine from your system
+
+*vagrant suspend* — Stop the machine and save its current state.
+
+*vagrant provision {vm-name}* — Manually execute ansible playbook against a VM.
+
+*vagrant halt* — Shut down the virtual machine.
+
+*vagrant box list* - List local vagrant box images
+
+*vagrant box remove {vagrant-box-image-name}* - Remove local vagrant box images
+
+*vagrant plugin list* - List local vagrant plugins
