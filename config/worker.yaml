@@ -6,24 +6,24 @@
     apt:
       name: "{{ packages }}"
       state: present
-      update_cache: yes
+      update_cache: true
     vars:
       packages:
-      - apt-transport-https
-      - ca-certificates
-      - curl
-      - software-properties-common
-      - gnupg2
-      - net-tools
+        - apt-transport-https
+        - ca-certificates
+        - curl
+        - software-properties-common
+        - gnupg2
+        - net-tools
 
   - name: Install containerd
     apt:
       name: "{{ packages }}"
       state: present
-      update_cache: yes
+      update_cache: true
     vars:
       packages:
-      - containerd
+        - containerd
 
   - name: Remove swapfile from /etc/fstab
     mount:
@@ -50,10 +50,10 @@
       filename: kubernetes.list
 
   - name: Install Kubernetes binaries
-    apt: 
+    apt:
       name: "{{ packages }}"
       state: present
-      update_cache: yes
+      update_cache: true
     vars:
       packages:
         - kubelet=1.23.0-00
