@@ -1,4 +1,6 @@
 # k8s-local-cluster
+[![ansible-lint](https://github.com/stackzoo/k8s-local-cluster/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/stackzoo/k8s-local-cluster/actions/workflows/ansible-lint.yml)
+
 Deploy a local multinode k8s cluster with vagrant and ansible 🔧 ☸️
 
 ## Abstract
