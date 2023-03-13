@@ -8,7 +8,7 @@ This repo allows you to create a local development cluster using `vagrant` and `
 <br/>
 Solutions like `KinD` and `Minikube` are excellent but often limited.
 <br/>
-With a cluster made up of several VMs it is possible to test a scenario that is closest to a production context.
+With a cluster made up of several VMs it is possible to test a scenario that is closer to a production context.
 
 ## Prerequisites
 - `ansible`
