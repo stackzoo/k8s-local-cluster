@@ -6,3 +6,4 @@
 
 # for ansible
 *.retry
+config/join-command
